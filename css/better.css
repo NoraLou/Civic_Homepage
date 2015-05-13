@@ -255,23 +255,49 @@ div.main {
 
 
 
-
-
-
 /*slide-3***************************************/
+.container-fluid.max-width{
+  max-width: 1100px;
+  /*background-color :green;*/
+}
+
 #slide-3 .bcg-parrallax {
-  background-image:url('../img/downtown-07-blue-3.jpg')
+  background-image:url('../img/downtown-07-next-try4.jpg')
 
 }
 
-#slide-3 .supporting-points{
-  background-color: green;
+#slide-3 .supporting-left {
+  padding-left: 2%;
+  margin-top: 10%;
+}
 
+#slide-3 .supporting-right{
+  margin-top: 10%;
+}
 
+div.col-md-8.col-md-offset-4.col-sm-12{
+  text-align: left;
+}
+
+h3.supporting-text.left{
+  text-align: left;
 }
 
 
+#slide-3 .supporting-text{
+  color: white;
+  color:midnightblue;
+  font-size: 32px;
+  font-family:'Open Sans', sans-serif;
+  font-weight: 800;
+  letter-spacing: 2px;
+  line-height:2;
 
+}
+
+#slide-3 .supporting-text span{
+  font-size: 40px;
+}
 
 
 
