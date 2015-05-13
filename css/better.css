@@ -224,31 +224,40 @@ div.main {
   font-weight: bold;
   /*text-transform: uppercase;*/
   color:midnightblue;
-  font-size: 40px;
+  font-size: 20px;
   letter-spacing: 4px;
-
-
-}
-
-.textSlide{
-  background-color: transparent;
-  height: 300px;
 }
 
 #slide-2 .row{
-  margin-left: 15%
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#slide-2 .row h2 span{
+  /*margin-left: 10px;
+*/
 
 }
 
-.img-text-alert{
- /* position: absolute;
+
+
+
+
+
+
+
+
+
+./*img-text-alert{
+  position: absolute;
   right: 0;
-  top: 0;*/
+  top: 0;
   z-index: 5;
 
 }
 
-
+*/
 
 
 
