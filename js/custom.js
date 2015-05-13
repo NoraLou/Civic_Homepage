@@ -14,8 +14,8 @@ $(document).ready(function(){
             forceHeight:false
         });
 
-        // s.refresh($('.imgSlide'));
-        // ??????????????????
+        s.refresh($('.imgSlide'));
+
 
 });
 

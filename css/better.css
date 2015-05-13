@@ -213,13 +213,13 @@ div.main {
 }
 
 
-/*Slide-2*/
+/*Slide-2*/ /*Slide-4*/
 
-#slide-2{
+.textSlide{
  text-align: center;
 }
 
-#slide-2 h2 {
+.textSlide h2 {
   font-family:'Open Sans', sans-serif;
   font-weight: 800;
   text-transform: uppercase;
@@ -228,7 +228,7 @@ div.main {
   letter-spacing: 2px;
 }
 
-#slide-2 .row{
+.textSlide.row{
   text-align: center;
   margin-left: 20%;
   margin-right: 20%;
@@ -236,7 +236,7 @@ div.main {
 
 
 
-#slide-2 .content{
+.textSlide .content{
   padding-top: 8%;
   padding-bottom: 8%;
   display:inline-block;
@@ -244,7 +244,7 @@ div.main {
   width: 90%;
 }
 
-#slide-2 .content .hr{
+.textSlide .content .hr{
   display:inline-block;
   text-align: center;
   margin:auto;
@@ -266,26 +266,20 @@ div.main {
 
 }
 
-#slide-3 .supporting-left {
+.imgSlide.supporting-left {
   padding-left: 2%;
   margin-top: 10%;
 }
 
-#slide-3 .supporting-right{
+.imgSlide.supporting-right{
   margin-top: 10%;
 }
 
 div.col-md-8.col-md-offset-4.col-sm-12{
-  text-align: left;
+  text-align: right;
 }
 
-h3.supporting-text.left{
-  text-align: left;
-}
-
-
-#slide-3 .supporting-text{
-  color: white;
+.supporting-text{
   color:midnightblue;
   font-size: 32px;
   font-family:'Open Sans', sans-serif;
@@ -295,10 +289,41 @@ h3.supporting-text.left{
 
 }
 
-#slide-3 .supporting-text span{
+.imgSlide>h3.supporting-text.left{
+  text-align: right;
+}
+
+.imgSlide.supporting-text span{
   font-size: 40px;
 }
 
+/*slide-5*/
+
+#slide-5 .bcg-parrallax {
+  background-image:url('../img/active-downtown-blue3.jpg')
+
+}
+
+/*??????????????????????*/
+.slide5-text{
+  color:white;
+  font-size: 32px;
+  font-family:'Open Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height:2;
+}
+
+.imgSlide>h3.slide5-text.left{
+  text-align: right;
+}
+
+
+footer{
+  height: 300px;
+  background-color:#03103e;
+
+}
 
 
 
