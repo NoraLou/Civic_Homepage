@@ -3,12 +3,19 @@
 $(document).ready(function(){
   resizeLanding();
 
+        //init scrollreveal
+
+
+
+         window.sr = new scrollReveal();s
+
         // Init Skrollr
         var s = skrollr.init({
             forceHeight:false
         });
 
-        s.refresh($('.homeSlide'));
+        // s.refresh($('.imgSlide'));
+        // ??????????????????
 
 });
 
