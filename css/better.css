@@ -188,19 +188,16 @@ div.main {
 
 .hsContent {
     width: 70%;
-    /*max-width: 700px;*/
     position: absolute;
     left: 15%%;
     right:15%;
     top: 35%;
     text-align: center;
     color:white;
-   /* font-family: Raleway;*/
 }
 
 .hsContent h1 {
     font-size:120px;
-    /*line-height:120px;*/
     font-family: Open Sans Condensed;
     font-weight: 300;
     letter-spacing: 5px;
@@ -208,7 +205,6 @@ div.main {
 }
 
 .hsContent p {
-   /* font-family: Raleway;*/
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 42px;
@@ -219,13 +215,17 @@ div.main {
 
 /*Slide-2*/
 
+#slide-2{
+ text-align: center;
+}
+
 #slide-2 h2 {
-  font-family:'Montserrat', sans-serif;
-  font-weight: bold;
-  /*text-transform: uppercase;*/
+  font-family:'Open Sans', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
   color:midnightblue;
-  font-size: 20px;
-  letter-spacing: 4px;
+  font-size: 32px;
+  letter-spacing: 2px;
 }
 
 #slide-2 .row{
@@ -234,10 +234,23 @@ div.main {
   margin-right: 20%;
 }
 
-#slide-2 .row h2 span{
-  /*margin-left: 10px;
-*/
 
+
+#slide-2 .content{
+  padding-top: 8%;
+  padding-bottom: 8%;
+  display:inline-block;
+  margin:auto;
+  width: 90%;
+}
+
+#slide-2 .content .hr{
+  display:inline-block;
+  text-align: center;
+  margin:auto;
+  background-color: midnightblue;
+  height:3px;
+  width: 600px;
 }
 
 
@@ -249,15 +262,28 @@ div.main {
 
 
 
-./*img-text-alert{
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 5;
 
-}
 
-*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
