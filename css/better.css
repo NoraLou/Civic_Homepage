@@ -156,11 +156,6 @@ div.main {
 }
 
 
-
-
-
-/*img slides************************************************************************/
-
 /*slide-1******************/
 
 #slide-1 .bcg-parrallax {
@@ -184,7 +179,6 @@ div.main {
     text-align: center;
 }
 
-#slide-1 .hasContent
 
 .hsContent {
     width: 70%;
@@ -211,6 +205,9 @@ div.main {
     letter-spacing: 5px;
     color:white;
 }
+
+
+
 
 
 /*Slide-2*/ /*Slide-4*/
@@ -250,7 +247,7 @@ div.main {
   margin:auto;
   background-color: midnightblue;
   height:3px;
-  width: 600px;
+  width:70%;
 }
 
 
@@ -273,6 +270,7 @@ div.main {
 
 .imgSlide.supporting-right{
   margin-top: 10%;
+  padding-right:2%;
 }
 
 div.col-md-8.col-md-offset-4.col-sm-12{
@@ -337,7 +335,46 @@ div.email-us {
 
 }
 
+/*MOBILE STYLES*/
+@media(max-width:768px){
 
+    .hsContent{
+        top:30%;
+        left:10%;
+        right:10%;
+        width:80%;
+    }
+
+    .hsContent h1{
+        font-size: 60px;
+    }
+
+    .hsContent p{
+        font-size: 30px;
+
+    }
+
+
+    .textSlide h2{
+      font-size: 24px;
+
+    }
+
+    .hr{
+      width: 60%;
+    }
+
+    h3.supporting-text{
+      font-size: 22px;
+      letter-spacing:1px;
+
+    }
+
+    div.col-md-8.col-md-offset-4.col-sm-12{
+      margin-right: 2%
+    }
+
+}
 
 
 
