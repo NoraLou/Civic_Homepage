@@ -305,49 +305,24 @@ div.col-md-8.col-md-offset-4.col-sm-12{
 }
 
 
-/*slide-4***************************************/
-
-
-#slide-4.textSlide h2 {
-  font-family:'Open Sans', sans-serif;
-  font-weight: 800;
-  text-transform: uppercase;
-  color:white;
-  font-size: 32px;
-  letter-spacing: 2px;
-}
-
-
-#slide-4.textSlide>div>.hr{
-  background-color:white;
-}
-
-
-#slide-4 {
-  background-color:#03103e
-}
-
-
-/*slide-5*/
 
 
 #slide-5 .bcg-parrallax{
-  background-image:url('../img/sf-skyline-03.jpg')
+  background-image:url('../img/san-francisco-skyline.jpg')
 }
 
-/*??????????????????????*/
-.slide5-text{
-  color:white;
-  font-size: 32px;
-  font-family:'Open Sans', sans-serif;
-  font-weight: 700;
-  letter-spacing: 3px;
-  line-height:2;
+.mission-statement{
+  background-color: white;
+  position:absolute;
+  width: 70%;
+  margin-right: 15%;
+  margin-left: 15%;
+  top:15%;
+
 }
 
-.imgSlide>h3.slide5-text.left{
-  text-align: right;
-}
+
+
 
 
 footer{

@@ -2,8 +2,9 @@
 
 $(document).ready(function(){
   resizeLanding();
-
   adjustWindow();
+
+  enquire.register("screen and (min-width : 768px)", initAdjustWindow(), false);
 
 
 
@@ -33,8 +34,35 @@ function adjustWindow(){
 
         s.refresh($('.imgSlide'));
 
+    }else {
+
+        // Init Skrollr
+        var s = skrollr.init();
+        s.destroy();
     }
+
+    // Check for touch
+    if(Modernizr.touch) {
+
+        // Init Skrollr
+        var s = skrollr.init();
+        s.destroy();
+    }
+
 }
+
+function initAdjustWindow() {
+    return {
+        match : function() {
+            adjustWindow();
+        },
+        unmatch : function() {
+            adjustWindow();
+        }
+    };
+}
+
+
 
 
 
