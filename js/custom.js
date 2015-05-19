@@ -5,16 +5,6 @@ $(document).ready(function(){
 
   adjustWindow();
 
-  // adjustWindow();
-
-        //init scrollreveal
-
-
-        // var s = skrollr.init({
-        //     forceHeight:false
-        // });
-
-        // s.refresh($('.imgSlide'));
 
 
 });
@@ -39,9 +29,9 @@ function adjustWindow(){
         });
 
         // Resize our slides
-        $('imgSlide').height(winH);
+        $('.imgSlide').height(winH);
 
-        s.refresh($('imgSlide'));
+        s.refresh($('.imgSlide'));
 
     }
 }
