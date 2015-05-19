@@ -1,15 +1,15 @@
-
+ // window.sr = new scrollReveal();s
 
 $(document).ready(function(){
   resizeLanding();
 
+  adjustWindow();
+
+  // adjustWindow();
+
         //init scrollreveal
 
 
-
-         window.sr = new scrollReveal();s
-
-        // Init Skrollr
         // var s = skrollr.init({
         //     forceHeight:false
         // });
@@ -23,8 +23,8 @@ $(document).ready(function(){
 function adjustWindow(){
 
     //Get window size
-    winH = $window.height();
-    winW = $window.width();
+    winH = $(window).height();
+    winW = $(window).width();
 
     //keep minimun height 550
     if(winH <= 550){
@@ -32,55 +32,26 @@ function adjustWindow(){
     }
 
     //init skrollar tables 768 and up
-    if(winH >= 768){
+    if(winW>= 768){
 
         var s = skrollr.init({
             forceHeight:false
         });
 
         // Resize our slides
-        $slide.height(winH);
+        $('#slide-5').height(winH);
 
-        s.refresh($('.section'));
-
-
-
-
-
+        s.refresh($('#slide-5'));
 
     }
-
-
-
-
-
-
-
-
-
-
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//Resize slideshow images on page ReLoad / reload
+//Resize landing image  on page ReLoad / reload
 function resizeLanding() {
   $(window).resize(function(){
-    $("section").height($(window).height())
+    $("#slide-1").height($(window).height())
   }).resize();
 }
 

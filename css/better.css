@@ -330,7 +330,8 @@ div.col-md-8.col-md-offset-4.col-sm-12{
 
 /*slide-5*/
 
-#slide-5 .bcg-parrallax {
+
+#slide-5 .bcg-parrallax{
   background-image:url('../img/sf-skyline-03.jpg')
 }
 
