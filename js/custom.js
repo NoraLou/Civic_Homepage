@@ -10,14 +10,68 @@ $(document).ready(function(){
          window.sr = new scrollReveal();s
 
         // Init Skrollr
+        // var s = skrollr.init({
+        //     forceHeight:false
+        // });
+
+        // s.refresh($('.imgSlide'));
+
+
+});
+
+
+function adjustWindow(){
+
+    //Get window size
+    winH = $window.height();
+    winW = $window.width();
+
+    //keep minimun height 550
+    if(winH <= 550){
+        winH = 550;
+    }
+
+    //init skrollar tables 768 and up
+    if(winH >= 768){
+
         var s = skrollr.init({
             forceHeight:false
         });
 
-        s.refresh($('.imgSlide'));
+        // Resize our slides
+        $slide.height(winH);
+
+        s.refresh($('.section'));
 
 
-});
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
