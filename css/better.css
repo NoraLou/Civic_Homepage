@@ -254,7 +254,7 @@ div.main {
 
 
 /*slide-3***************************************/
-.container-fluid.max-width{
+.max-width{
   max-width: 1100px;
  /* width: 70%;*/
  /* margin-right: 15%;
@@ -304,8 +304,7 @@ div.col-md-8.col-md-offset-4.col-sm-12{
   font-size: 40px;
 }
 
-
-
+/*slide-5*******************************************************************/
 
 #slide-5 .bcg-parrallax{
   background-image:url('../img/san-francisco-skyline.jpg')
@@ -313,17 +312,64 @@ div.col-md-8.col-md-offset-4.col-sm-12{
 
 .mission-statement{
   background-color: white;
-  position:absolute;
-  width: 70%;
-  margin-right: 15%;
-  margin-left: 15%;
-  top:15%;
+ /* display:block;
+  margin-right:auto;
+  margin-left: auto;*/
+  /*position:absolute;*/
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 15%;
+  margin-bottom:15%;
 
+  padding: 5%;
+
+
+}
+
+.mission-statement p{
+  color: midnightblue;
+  font-size: 20px;
+  font-family: Montserrat, sans-serif;
+  line-height: 2;
+}
+
+
+/**slide-6************************/
+
+.about-action{
+
+  padding: 5%;
+  /*padding-right: 30px;
+  padding-left: 30px;*/
+  min-height: 360px;
+  text-align: center;
+
+}
+
+.flaticon img{
+  width: 81px;
+  /*background-color: midnightblue;*/
+  color:midnightblue;
+
+}
+
+.about-action-hr{
+  background-color: midnightblue;
+  width: 20px;
+  height: 4px;
+}
+
+.about-action p{
 }
 
 
 
 
+
+
+
+/*Footer****************************************/
 
 footer{
   height: 300px;
@@ -382,9 +428,29 @@ div.email-us {
       margin-right: 2%
     }
 
+    .max-width{
+      padding-top:2%;
+      padding-bottom:4%;
+    }
+
 }
 
+@media(min-width:893px max-width:691){
 
+  div.col-md-4.col-sm-6:last-of-type{
+    display:block;
+    text-align: center;
+    margin:auto;
+
+  }
+
+  #map-icon{
+    display:block;
+    text-align: center;
+    margin:auto;
+  }
+
+}
 
 
 
