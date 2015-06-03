@@ -404,7 +404,21 @@ div.col-md-8.col-md-offset-4.col-sm-12{
   letter-spacing:3px;
   font-weight: 500;
 }
+
 /*contact-section*************************************************/
+
+input{
+  display:inline-block;
+  text-align: center;
+  margin: auto;
+  width:70%;
+}
+
+button{
+  display:inline-block;
+  width:30%;
+}
+
 footer{
   height: 300px;
   background-color:#03103e;
