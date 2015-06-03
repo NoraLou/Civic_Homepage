@@ -1,11 +1,10 @@
- // window.sr = new scrollReveal();s
 
 $(document).ready(function(){
   resizeLanding();
   adjustWindow();
 
   enquire.register("screen and (min-width : 768px)", initAdjustWindow(), false);
-
+  // window.sr = new scrollReveal();
 
 
 });
