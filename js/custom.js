@@ -4,14 +4,10 @@ $(document).ready(function(){
   adjustWindow();
 
   enquire.register("screen and (min-width : 768px)", initAdjustWindow(), false);
-  // window.sr = new scrollReveal();
-
-
+  window.sr = new scrollReveal();
 });
 
-
 function adjustWindow(){
-
     //Get window size
     winH = $(window).height();
     winW = $(window).width();
@@ -20,34 +16,25 @@ function adjustWindow(){
     if(winH <= 550){
         winH = 550;
     }
-
     //init skrollar tables 768 and up
     if(winW>= 768){
-
         var s = skrollr.init({
             forceHeight:false
         });
-
         // Resize our slides
         $('.imgSlide').height(winH);
-
         s.refresh($('.imgSlide'));
-
-    }else {
-
+    } else {
         // Init Skrollr
         var s = skrollr.init();
         s.destroy();
     }
-
     // Check for touch
     if(Modernizr.touch) {
-
         // Init Skrollr
         var s = skrollr.init();
         s.destroy();
     }
-
 }
 
 function initAdjustWindow() {
@@ -60,10 +47,6 @@ function initAdjustWindow() {
         }
     };
 }
-
-
-
-
 
 //Resize landing image  on page ReLoad / reload
 function resizeLanding() {
@@ -80,8 +63,6 @@ $(window).scroll(function() {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
     }
 });
-
-
 
 //jQuery for page scrolling feature
 $(function() {
