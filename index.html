@@ -9,7 +9,7 @@
     <meta name="author" content="Nora Humpage">
     <title>SF_in_Progress</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/better.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,900|Open+Sans+Condensed:300|Raleway:400,900,800' rel='stylesheet' type='text/css'>
@@ -34,7 +34,7 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="http://sanfrancisco-in-progress.herokuapp.com/map">Map</a>
+                        <a href="http://sanfrancisco-in-progress.herokuapp.com/map">Map</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">About</a>
@@ -120,10 +120,10 @@
                <h2 data-sr="enter left ease move 10px over 1s after 1.5s">And suburban sprawl costs the US $1 trillion a year.</h2>
            </div>
        </div><!-- slide-2 -->
-         <section id = "slide-5" class ="">
+         <section id="slide-5">
             <div class="bcg-parrallax imgSlide">
-                <div class = "container-fluid max-width">
-                    <div class = "mission-statement">
+                <div id="about" class = "container-fluid max-width">
+                    <div class="mission-statement">
                         <p>SF in Progress is a community-based project that strives to create a transparent view of housing production in the Bay Area. By providing open community insight into housing regulations and upcoming housing proposals, users are informed and empowered to weigh in on planning issues affecting the state of housing in their neighborhoods and advocate for their needs.</p>
                     </div>
                 </div><!-- container-fluid max-width -->
@@ -182,89 +182,28 @@
                 </div><!-- container-fluid -->
         </section>
 
-        <section class = "partner-orgs ">
+        <section class = "partner-orgs">
                 <div class="container-fluid max-width">
                     <div class = "row partner-img">
                         <h3> WE ARE PARTNERS WITH THE FOLLOWING ORGANIZATIONS</h3>
                     </div>
-                    <div class="row">
+                    <div class="row partner-img">
                         <div class= "col-md-6 col-sm-6 col-xs-6 partner-img">
-                            <div class="">
-                                <img src = "img/partner_orgs/logo.png">
-                            </div>
+                            <img src = "img/partner_orgs/logo.png">
                         </div>
                          <div class="col-md-6 col-sm-6 col-xs-6 partner-img">
-                            <div class="">
-                                <img src = "img/partner_orgs/sfhac-logo1.png">
-                            </div>
+                            <img src = "img/partner_orgs/sfhac-logo1.png">
                         </div>
                     </div>
                 </div>
         </section>
-        <section id="contact" class ="container-fluid max-width">
-            <div class = "partner-img">
-                <h3>Stay in Touch!</h3>
-                <!-- <h3 class => Join our email list, stay in touch, and let your voice be heard<h3> -->
-               <div class="small-width">
-                    <div class="row">
-                        <div class = "col-md-6 col-sm-6 col-xs-6">
-                            <img src = "img/Twitter.png">
-                        </div>
-                        <div class = "col-md-6 col-sm-6 col-xs-6">
-                            <img src = "img/Facebook.png">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-               <!-- <div class="row">
-                        <div class="col-md-12">
-                          <form>
-                            <input id="Email" name="Email" type="text"  placeholder="Email Address">
-                            <button id="ButtonSubmit" onclick="postContactToGoogle()" type="button" >Send</button>
-                          </form>
-                        </div>
-                    </div><!-- row --> -->
-
-
-
-    <script>
-        function postContactToGoogle() {
-            var email = $('#Email').val();
-
-                $.ajax({
-                    url:"https://docs.google.com/forms/d/1MFF8eiy3lfDow3DY4vaDNfre0YqvMy4mhY5zOJf5ZJg/formResponse",
-                    data: { "entry_1750303937": email},
-                    type: "POST",
-                    dataType: "xml",
-                    statusCode: {
-                        0: function () {
-                            alert("Thank you!");
-                        },
-                        200: function () {
-                            alert("Thank you!");
-                        }
-                    }
-                });
-        }
-    </script>
-
-
-
-    <script src="js/lib/jquery.js"></script>
-    <script src="js/lib/bootstrap.min.js"></script>
-    <script src="js/lib/jquery.easing.min.js"></script>
-    <script src = "js/lib/enquire.min.js"></script>
-    <script src='js/lib/scrollReveal.min.js'></script>
-    <script src = "js/lib/skrollr.min.js"></script>
-    <script src = "js/lib/modernizr-2.7.1.min.js"></script>
-
-
-    <script src = "js/custom.js"></script>
-
-
-
+        <script src="js/lib/jquery.js"></script>
+        <script src="js/lib/bootstrap.min.js"></script>
+        <script src="js/lib/jquery.easing.min.js"></script>
+        <script src="js/lib/enquire.min.js"></script>
+        <script src='js/lib/scrollReveal.min.js'></script>
+        <script src="js/lib/skrollr.min.js"></script>
+        <script src="js/lib/modernizr-2.7.1.min.js"></script>
+        <script src="js/custom.js"></script>
 </body>
-
 </html>
